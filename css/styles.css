@@ -73,6 +73,7 @@ color: #2E2F42;
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.04em;
+            cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus{
