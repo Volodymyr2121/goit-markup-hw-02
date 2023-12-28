@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background: #FFF;
-    color: #2E2F42;
+    color: #434455;
 }
 a{
     text-decoration: none;
@@ -14,8 +14,8 @@ list-style: none;
 /*----------header-----------*/
 
 .logo{
-    color: #2E2F42;
-        font-family: Raleway;
+    color: #4d5ae5;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -23,7 +23,7 @@ list-style: none;
         text-transform: uppercase;
 }
 span{
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 .navigation-item{
 color: #2E2F42;
@@ -49,6 +49,9 @@ color: #2E2F42;
 .adress-item:hover{
    color: #404BBF;
 }
+.header-adress{
+    font-style: normal;
+}
 
 /*--------------HERO----------*/
 
@@ -65,9 +68,7 @@ color: #2E2F42;
 }
 
 .hero-btn {
-    border-radius: 4px;
         background: #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: var(--WHITE, #FFF);
             font-size: 16px;
             font-weight: 500;
@@ -83,8 +84,6 @@ color: #2E2F42;
 /*--------------COMPONENTS----------*/
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
@@ -176,7 +175,9 @@ color: #2E2F42;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-
+.portfolio-points {
+    background-color: #FFFFFF;
+}
 /*--------------FOOTER----------*/
 
 .footer {background:#2E2F42;}
@@ -189,11 +190,14 @@ color: #2E2F42;
         letter-spacing: 0.02em;
 }
 .footer-logo{
-    color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+    color:#4d5ae5;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+}
+.footer-logo-span{
+    color: #f4f4fd;
 }
